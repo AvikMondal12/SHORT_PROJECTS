@@ -1,0 +1,121 @@
+body {
+    color: white;
+    background-image: image-set('photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.left {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    /* border: 2px solid white; */
+}
+
+.left div {
+    text-align: center;
+}
+
+.left img {
+    width: 30px;
+    filter: invert(100%);
+    display: block;
+    margin: 5px auto;
+
+}
+
+.mid {
+    display: block;
+    width: 500px;
+    margin: auto;
+    border: 2px solid white;
+    padding: 9px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navbar li {
+
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 8px;
+    font-size: 18px;
+
+}
+
+.navbar li a:active,
+.navbar li a:hover {
+    text-decoration: underline;
+    background-color: grey;
+    border-radius: 8px;
+    padding: 0px 12px;
+}
+
+.right {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    /* border: 2px solid white; */
+}
+
+.btn {
+    margin: 6px;
+    padding: 2px 18px;
+    /* background-color: black;
+    color: white; */
+    border-radius: 9px;
+    font-weight: bold;
+    font-style: italic;
+}
+.right .btn:hover{
+    background-color: lightyellow;
+    border: 2px solid blue;
+}
+.container {
+    border: 2px solid white;
+    width: 33%;
+    position: absolute;
+    bottom: 40px;
+    right: 423px;
+    padding: 0px;
+    border-radius: 12px;
+    background-color: rgba(128, 128, 128, 0.624);
+
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.group input {
+    text-align: center;
+    width: 52%;
+    margin: 6px auto;
+    display: flex;
+    padding: 4px;
+    background-color: rgb(254, 129, 129);
+    border-radius: 5px;
+    border: 3px solid grey;
+    font-weight: bold;
+    color: black;
+}
+
+.container .btn {
+    width: 21%;
+    display: flex;
+    margin: 15px auto;
+    text-align: center;
+    cursor: pointer;
+}
+.container .btn:hover{
+    background-color: lightseagreen;
+    border: 2px solid green;
+}
